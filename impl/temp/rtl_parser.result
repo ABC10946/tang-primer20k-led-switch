@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "D:/FPGA_Projects/blink/src/top.sv",
+  "InstLine" : 2,
+  "InstName" : "top",
+  "ModuleFile" : "D:/FPGA_Projects/blink/src/top.sv",
+  "ModuleLine" : 2,
+  "ModuleName" : "top"
+ }
+]

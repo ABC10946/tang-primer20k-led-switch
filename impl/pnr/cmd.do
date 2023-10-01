@@ -1,0 +1,12 @@
+-d D:\FPGA_Projects\blink\impl\gwsynthesis\blink.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst D:\FPGA_Projects\blink\src\top.cst
+-cfg D:\FPGA_Projects\blink\impl\pnr\device.cfg
+-sdc D:\FPGA_Projects\blink\src\top.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23

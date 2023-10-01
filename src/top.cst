@@ -1,0 +1,28 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.09 Education
+//Part Number: GW2A-LV18PG256C8/I7
+//Device: GW2A-18C
+//Created Time: Sun 10 01 21:43:47 2023
+
+IO_LOC "led_output[4]" L14;
+IO_PORT "led_output[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "led_output[3]" N14;
+IO_PORT "led_output[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "led_output[2]" N16;
+IO_PORT "led_output[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "led_output[1]" A13;
+IO_PORT "led_output[1]" PULL_MODE=UP DRIVE=8;
+IO_LOC "led_output[0]" C13;
+IO_PORT "led_output[0]" PULL_MODE=UP DRIVE=8;
+IO_LOC "input_buttons[4]" C7;
+IO_PORT "input_buttons[4]" PULL_MODE=UP;
+IO_LOC "input_buttons[3]" D7;
+IO_PORT "input_buttons[3]" PULL_MODE=UP;
+IO_LOC "input_buttons[2]" T2;
+IO_PORT "input_buttons[2]" PULL_MODE=UP;
+IO_LOC "input_buttons[1]" T3;
+IO_PORT "input_buttons[1]" PULL_MODE=UP;
+IO_LOC "input_buttons[0]" T10;
+IO_PORT "input_buttons[0]" PULL_MODE=UP;
